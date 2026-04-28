@@ -10,7 +10,7 @@
     "./*": "./src/*.ts"
   },
   "scripts": {
-    "build": "tsc --build",
+    "build": "node api.js && tsc --build",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
